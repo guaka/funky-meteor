@@ -12,4 +12,4 @@ some list of features I want:
 
 ## built on other libraries
 
-* (Tuna effects)[https://github.com/Dinahmoe/tuna]
+* [Tuna effects](https://github.com/Dinahmoe/tuna)
