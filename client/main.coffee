@@ -40,9 +40,12 @@ Template.funky.current = ->
   Session.get 'current'
 
 
-
 Meteor.startup ->
   Session.set 'current', ''
+
+
+Meteor.subscribe 'presets', ->
+  console.log 'presets loaded'
   name = location.hash?.slice(1)
   Meteor.setTimeout (-> setPreset name), 1000
 
