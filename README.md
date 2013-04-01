@@ -8,3 +8,8 @@ some list of features I want:
 * 303 style synth
 * 808 style drummachine
 * modular
+
+
+## built on other libraries
+
+* (Tuna effects)[https://github.com/Dinahmoe/tuna]
