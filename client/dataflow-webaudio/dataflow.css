@@ -47,7 +47,7 @@ input[type="submit"],
 }
 .edges {
   position: absolute;
-  top: 10px;
+  top: 40px;
   left: 10px;
   z-index: 1;
 }
