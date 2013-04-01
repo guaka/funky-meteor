@@ -1,4 +1,4 @@
-Funky Meteor is a very basic audio thingy now.
+Funky Meteor is a very basic modular synth using HTML5 audio.
 
 
 ## Implemented
