@@ -1,5 +1,5 @@
-[Funky Meteor](http://funky.meteor.com/) is a very basic modular synth using HTML5 audio.
-
+[Funky Meteor](http://funky.meteor.com/) is a very basic modular synth
+using HTML5 audio.
 
 
 
@@ -18,12 +18,13 @@
 
 
 
-## built on other libraries
+## Based on
 
-Looks like it's going to get started from 
-[dataflow-webaudio](https://github.com/forresto/dataflow-webaudio)
+* [Meteorjs](http://meteor.com/)
+* [dataflow-webaudio](https://github.com/forresto/dataflow-webaudio)
 
 
 ### more inspiration
+
 * [Tuna effects](https://github.com/Dinahmoe/tuna)
 * [SoundManager2](https://github.com/scottschiller/soundmanager2/)
