@@ -9,7 +9,13 @@
 </body>
 
 <template name="funky">
-  <button id="send" class="btn">send</button>
-  <button id="sync" class="btn">sync</button>
-
+  <button id="save" class="btn">save</button>
+  <input id="name" type="text" value="{{current}}" />
+  
+  <span id="presets">
+    {{#each presets}}
+    <button id="{{name}}">{{name}}</button>
+    {{/each}}
+  </span>
+  
 </template>

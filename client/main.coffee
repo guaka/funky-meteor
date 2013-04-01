@@ -4,14 +4,26 @@ Presets = new Meteor.Collection("presets")
 
 
 Template.funky.events
-  'click #send': ->
-    console.log 'send'
+  'click #save': ->
+    console.log 'save'
     preset = Dataflow.graph.toJSON()
-    Presets.insert { data: JSON.stringify(preset) }
+    name = $('#name').val()
+    Presets.insert
+      data: JSON.stringify(preset)
+      name: name
 
-  'click #sync': ->
-    console.log 'sync'
-    p = Presets.findOne {}
-    json = JSON.parse p.data
-    g = Dataflow.loadGraph json
-    g.trigger 'change'
+  'click #presets': (e) ->
+    name = e.toElement?.id
+    if name
+      console.log 'loading', name
+      p = Presets.findOne
+        name: name
+      json = JSON.parse p.data
+      g = Dataflow.loadGraph json
+      g.trigger 'change'
+
+Template.funky.presets = ->
+  Presets.find {}
+
+Template.funky.current = ->
+  Session.get 'current'
