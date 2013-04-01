@@ -1,4 +1,6 @@
-Funky Meteor is a very basic modular synth using HTML5 audio.
+[Funky Meteor](http://funky.meteor.com/) is a very basic modular synth using HTML5 audio.
+
+
 
 
 ## Implemented
