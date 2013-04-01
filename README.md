@@ -12,4 +12,6 @@ some list of features I want:
 
 ## built on other libraries
 
+possibilities:
 * [Tuna effects](https://github.com/Dinahmoe/tuna)
+* [SoundManager2](https://github.com/scottschiller/soundmanager2/)
