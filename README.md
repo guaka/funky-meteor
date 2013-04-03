@@ -1,6 +1,9 @@
 [Funky Meteor](http://funky.meteor.com/) is a very basic modular synth
 using HTML5 audio.
 
+April 2013 it only really works well in Chrome, on desktops.
+But this is expected to change very soon and we'll happilly build mobile apps
+based on this code.
 
 
 ## Implemented
@@ -13,9 +16,8 @@ using HTML5 audio.
 ## Wanted features
 
 * collaborative
-* 303 style synth
-* 808 style drummachine
-
+* sequencer
+* [Feature requests welcome](https://github.com/guaka/funky-meteor/issues/new)
 
 
 ## Based on
