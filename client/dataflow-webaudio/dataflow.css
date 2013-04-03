@@ -46,9 +46,9 @@ input[type="submit"],
   position: relative;
 }
 .edges {
-  position: absolute;
-  top: 40px;
-  left: 10px;
+  /* position: absolute; */
+  top: 0px;
+  left: 0px;
   z-index: 1;
 }
 .svg-edges {
