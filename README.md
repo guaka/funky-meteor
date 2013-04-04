@@ -2,8 +2,11 @@
 using HTML5 audio.
 
 April 2013 it only really works well in Chrome, on desktops.
-But this is expected to change very soon and we'll happilly build mobile apps
-based on this code.
+[Chrome Canary](https://www.google.com/intl/en/chrome/browser/canary.html) also supports audio in.
+
+Looking forward to build mobile apps based on this code.
+
+
 
 
 ## Implemented
