@@ -33,3 +33,5 @@ Looking forward to build mobile apps based on this code.
 
 * [Tuna effects](https://github.com/Dinahmoe/tuna)
 * [SoundManager2](https://github.com/scottschiller/soundmanager2/)
+* [Meemoo](http://meemoo.org/) is really nice, e.g. [this](http://meemoo.org/iframework/#gist/3124854) and [this](http://meemoo.org/iframework/#gist/3996361).
+
